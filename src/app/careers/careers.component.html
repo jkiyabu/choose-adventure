@@ -1,4 +1,11 @@
 <h3>Available careers</h3>
-<div *ngFor="let career of careers | async">
-  <h5>{{career.title}}</h5>
+<div *ngFor="let career of careers | async" (click)="goToDetailPage(career)" class="panel panel-default">
+  <div class="panel-heading">
+    <h4>{{career.title}}</h4>
+  </div>
+  <div class="panel-body">
+    <p>
+      {{career.description}}
+    </p>
+  </div>
 </div>
