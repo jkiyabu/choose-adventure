@@ -14,6 +14,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { UserService }          from './user.service';
 import { CareerService }          from './career.service';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     CareersComponent,
     CareerDetailsComponent,
     BankAccountComponent,
-    UserAddComponent
+    UserAddComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,

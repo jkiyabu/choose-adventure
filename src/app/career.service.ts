@@ -13,4 +13,8 @@ export class CareerService {
   getCareers() {
     return this.careers;
   }
+
+  getCareerById(careerId: string) {
+    return this.angularFire.database.object('careers/' + careerId);
+  }
 }

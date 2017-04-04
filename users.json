@@ -9,42 +9,40 @@
   }], "careers": [{
     "title": "Cowboy",
     "description": "You ride into the sunset on your steed, herding cattle, working long hard hours",
-    "years": [{
-        "year1": [
-          {"choiceA": "Stay a cowboy"},
-          {"choiceB": "Marry the farmer's kid"},
-          {"choiceC": "Butch Cassidy Style Rob a Bank"}
-        ],
-        "year2": [
-          {"choiceA": "Cowboy for another year"},
-          {"choiceB": "Run off with the town baker"},
-          {"choiceC": "Find a stagecoach to rob"}
-        ],
-        "year2": [
-          {"choiceA": "Retire off the land"},
-          {"choiceB": "Go hunting"},
-          {"choiceC": "start a band"}
-        ]
-      }]
+    "years": {
+        "year1":
+          {"choiceA": "Stay a cowboy",
+          "choiceB": "Marry the farmer's kid",
+          "choiceC": "Butch Cassidy Style Rob a Bank"}
+        ,
+        "year2":
+          {"choiceA": "Cowboy for another year",
+          "choiceB": "Run off with the town baker",
+          "choiceC": "Find a stagecoach to rob"}
+        ,
+        "year3":
+          {"choiceA": "Retire off the land",
+          "choiceB": "Go hunting",
+          "choiceC": "start a band"}
+    }
   }, {
     "title": "Basketball Player",
     "description": "shoot hoops, do commercials",
-    "years": [{
-      "year1": [
-        {"choiceA": "Stick the blazers"},
-        {"choiceB": "call your agent demand a trade"},
-        {"choiceC": "learn woodworking"}
-      ],
-      "year2": [
-        {"choiceA": "Settle in Portland"},
-        {"choiceB": "Consider europe"},
-        {"choiceC": "Old Spice"}
-      ],
-      "year2": [
-        {"choiceA": "Retire to florida"},
-        {"choiceB": "practice your announcing voice"},
-        {"choiceC": "coach junior high"}
-      ]
-    }]
+    "years": {
+      "year1":
+        {"choiceA": "Stick the blazers",
+        "choiceB": "call your agent demand a trade",
+        "choiceC": "learn woodworking"}
+      ,
+      "year2":
+        {"choiceA": "Settle in Portland",
+        "choiceB": "Consider europe",
+        "choiceC": "Old Spice"}
+      ,
+      "year3":
+        {"choiceA": "Retire to florida",
+        "choiceB": "practice your announcing voice",
+        "choiceC": "coach junior high"}
+    }
   }]
 }

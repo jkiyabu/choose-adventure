@@ -5,11 +5,9 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 @Injectable()
 export class UserService {
   users: FirebaseListObservable<any[]>;
-  careers: FirebaseListObservable<any[]>;
 
   constructor(private angularFire: AngularFire) {
     this.users = angularFire.database.list('users');
-    this.careers = angularFire.database.list('careers');
   }
 
   addUser(newUser: User) {
@@ -20,7 +18,4 @@ export class UserService {
     return this.users;
   }
 
-  getCareers() {
-    return this.careers;
-  }
 }
