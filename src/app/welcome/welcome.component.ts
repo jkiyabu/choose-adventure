@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from './../user.service';
+import { User } from './../user.model';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import { Router } from '@angular/router';
 
@@ -12,8 +13,8 @@ import { Router } from '@angular/router';
 export class WelcomeComponent implements OnInit {
   users: FirebaseListObservable<any[]>;
 
-  addUser() {
-
+  addUser(newUser: User) {
+    this.userService.addUser(newUser);
   }
 
   constructor(private router: Router, private userService: UserService) { }

@@ -10,6 +10,10 @@ export class UserService {
     this.users = angularFire.database.list('users');
   }
 
+  addUser(newUser: User) {
+    this.users.push(newUser);
+  }
+  
   getUsers() {
     return this.users;
   }
