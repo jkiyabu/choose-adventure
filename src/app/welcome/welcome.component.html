@@ -1,0 +1,12 @@
+<h1>Choose Your Career Path</h1>
+
+<p>
+  Use this app to choose a career and the many different paths that can lead you to success or FAILURE!
+</p>
+
+<h3>Users registered</h3>
+<div *ngFor="let user of users | async">
+  <h5>{{user.name}}</h5>
+</div>
+
+<app-user-add (newUserToAdd)="addUser($event)"></app-user-add>

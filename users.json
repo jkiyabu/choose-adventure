@@ -1,0 +1,10 @@
+{ "users": [{
+    "name": "Jayeson Kiyabu",
+    "balance": 10000,
+    "career": "lawyer"
+  }, {
+    "name": "Michael Jordan",
+    "balance": 100000000,
+    "career": "pro athelete"
+  }]
+}
