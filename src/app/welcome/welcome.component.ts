@@ -15,6 +15,7 @@ export class WelcomeComponent implements OnInit {
 
   addUser(newUser: User) {
     this.userService.addUser(newUser);
+    this.router.navigate(['careers']);
   }
 
   constructor(private router: Router, private userService: UserService) { }

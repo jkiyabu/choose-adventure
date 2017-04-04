@@ -1,12 +1,4 @@
-{ "users": [{
-    "name": "Jayeson Kiyabu",
-    "balance": 10000,
-    "career": "lawyer"
-  }, {
-    "name": "Michael Jordan",
-    "balance": 100000000,
-    "career": "pro athelete"
-  }], "careers": [{
+{ "careers": [{
     "title": "Cowboy",
     "description": "You ride into the sunset on your steed, herding cattle, working long hard hours",
     "years": [{

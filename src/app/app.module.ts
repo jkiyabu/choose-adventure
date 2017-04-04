@@ -13,6 +13,7 @@ import { UserAddComponent } from './user-add/user-add.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { UserService }          from './user.service';
+import { CareerService }          from './career.service';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -37,7 +38,7 @@ export const firebaseConfig = {
     routing,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [UserService],
+  providers: [UserService, CareerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

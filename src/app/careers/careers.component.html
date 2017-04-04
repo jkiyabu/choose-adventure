@@ -1,3 +1,4 @@
-<p>
-  careers works!
-</p>
+<h3>Available careers</h3>
+<div *ngFor="let career of careers | async">
+  <h5>{{career.title}}</h5>
+</div>
